@@ -7,10 +7,10 @@ export const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full">
-            <div className="flex gap-1">
-              <div className="w-2 h-6 bg-primary rounded" />
-              <div className="w-2 h-8 bg-primary rounded" />
-              <div className="w-2 h-10 bg-primary rounded" />
+            <div className="flex gap-1 items-end">
+              <div className="w-2 h-6 rounded" style={{ backgroundColor: '#4E7AB5' }} />
+              <div className="w-2 h-8 rounded" style={{ backgroundColor: '#6BA3D4' }} />
+              <div className="w-2 h-10 rounded" style={{ backgroundColor: '#5DD5E8' }} />
             </div>
             <span className="text-sm font-medium text-primary">Assessment Solutions LLC</span>
           </div>
@@ -45,20 +45,20 @@ export const Hero = () => {
           
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-heading font-bold text-primary mb-1">20+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-heading font-bold text-primary mb-1">100+</div>
-              <div className="text-sm text-muted-foreground">Projects Completed</div>
+              <div className="text-3xl font-heading font-bold text-primary mb-1">7+</div>
+              <div className="text-sm text-muted-foreground">Years in Business</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-heading font-bold text-primary mb-1">50+</div>
+              <div className="text-sm text-muted-foreground">Projects Completed</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-heading font-bold text-primary mb-1">30+</div>
               <div className="text-sm text-muted-foreground">Partner Organizations</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-heading font-bold text-primary mb-1">5M+</div>
-              <div className="text-sm text-muted-foreground">Lives Impacted</div>
+              <div className="text-3xl font-heading font-bold text-primary mb-1">1M+</div>
+              <div className="text-sm text-muted-foreground">Learners Impacted</div>
             </div>
           </div>
         </div>

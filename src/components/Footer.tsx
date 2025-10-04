@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2">
-            <div className="flex gap-1">
+            <div className="flex gap-1 items-end">
               <div className="w-2 h-6 bg-background rounded" />
               <div className="w-2 h-8 bg-background rounded" />
               <div className="w-2 h-10 bg-background rounded" />
