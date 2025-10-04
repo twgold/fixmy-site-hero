@@ -1,27 +1,27 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { BarChart3, Users, FileCheck, Database } from "lucide-react";
+import { BarChart3, Lightbulb, FileCheck, MessageSquare } from "lucide-react";
 
 const services = [
   {
     icon: BarChart3,
     title: "Research & Evaluation",
-    description: "We conduct comprehensive evaluations of education programs and policies using surveys, focus groups, interviews, and data analysis to support organizational growth and student success.",
+    description: "We design and conduct rigorous evaluations of education programs and policies. Using surveys, focus groups, interviews, and advanced data analysis, we generate actionable insights that drive organizational learning and student success.",
   },
   {
-    icon: Users,
-    title: "Capacity Building",
-    description: "Build your organization's internal capacity to collect and use data effectively. We develop program logic models and evaluation plans with the right metrics to measure impact.",
+    icon: Lightbulb,
+    title: "Strategic Advising & Capacity Building",
+    description: "We strengthen your organization's ability to collect, interpret, and act on data. Our team develops logic models, evaluation frameworks, and performance metrics that help you measure impact and guide strategic decisions.",
   },
   {
     icon: FileCheck,
-    title: "IRB Applications",
-    description: "Simplify your IRB application process with tailored assistance. From crafting detailed protocols to ensuring ethical compliance, we expedite your approval process.",
+    title: "Proposal & Submission Support",
+    description: "We streamline the development of grant proposals and IRB submissions. From articulating research questions to refining protocols, we help you craft persuasive, compliant applications that accelerate approval and funding.",
   },
   {
-    icon: Database,
-    title: "Data Management & Dashboards",
-    description: "Create customized dashboards for data visualization and real-time analytics. Make informed decisions with clear insights and actionable information.",
+    icon: MessageSquare,
+    title: "Communications & Storytelling",
+    description: "We help you transform your organization's results into compelling stories that engage stakeholders and inspire the broader community. Through clear messaging and data-driven narratives, we make your impact visible and memorable.",
   },
 ];
 

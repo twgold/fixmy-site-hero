@@ -12,7 +12,7 @@ export const Hero = () => {
               <div className="w-2 h-8 rounded" style={{ backgroundColor: '#6BA3D4' }} />
               <div className="w-2 h-10 rounded" style={{ backgroundColor: '#3A9BB5' }} />
             </div>
-            <span className="text-base font-semibold text-primary">Assessment Solutions LLC</span>
+            <span className="text-lg font-bold text-primary">Assessment Solutions LLC</span>
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6 text-balance">
