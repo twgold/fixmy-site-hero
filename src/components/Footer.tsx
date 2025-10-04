@@ -9,7 +9,7 @@ export const Footer = () => {
               <div className="w-2 h-8 bg-background rounded" />
               <div className="w-2 h-10 bg-background rounded" />
             </div>
-            <span className="font-heading font-semibold">Assessment Solutions LLC</span>
+            <span className="font-heading font-semibold text-lg">Assessment Solutions LLC</span>
           </div>
           <p className="text-sm text-background/80">
             © {new Date().getFullYear()} Assessment Solutions LLC. All Rights Reserved.

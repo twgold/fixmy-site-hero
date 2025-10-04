@@ -17,7 +17,7 @@ const clients = [
 
 export const Clients = () => {
   return (
-    <section className="py-20 lg:py-28 bg-background">
+    <section className="py-20 lg:py-28 bg-background overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-4">
@@ -28,18 +28,22 @@ export const Clients = () => {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {clients.map((client, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-center p-6 bg-card border border-border rounded-lg hover:border-primary/50 hover:shadow-md transition-all duration-300 group"
-              >
-                <span className="text-sm font-medium text-muted-foreground group-hover:text-foreground transition-colors duration-300 text-center">
-                  {client}
-                </span>
-              </div>
-            ))}
+        <div className="relative">
+          <div className="flex overflow-hidden">
+            <div className="flex animate-scroll">
+              {[...clients, ...clients].map((client, index) => (
+                <div
+                  key={index}
+                  className="flex-shrink-0 mx-8 flex items-center justify-center"
+                >
+                  <div className="px-8 py-6 bg-card border border-border rounded-lg hover:border-primary/50 hover:shadow-md transition-all duration-300 group min-w-[200px]">
+                    <span className="text-base font-semibold text-muted-foreground group-hover:text-foreground transition-colors duration-300 whitespace-nowrap">
+                      {client}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
