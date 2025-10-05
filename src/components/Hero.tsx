@@ -8,20 +8,19 @@ export const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6 inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full">
             <div className="flex gap-1 items-end">
-              <div className="w-2 h-6 rounded" style={{ backgroundColor: '#4E7AB5' }} />
-              <div className="w-2 h-8 rounded" style={{ backgroundColor: '#6BA3D4' }} />
-              <div className="w-2 h-10 rounded" style={{ backgroundColor: '#3A9BB5' }} />
+              <div className="w-2 h-6 rounded bg-primary" />
+              <div className="w-2 h-8 rounded bg-primary" />
+              <div className="w-2 h-10 rounded bg-primary" />
             </div>
             <span className="text-lg font-bold text-primary">Assessment Solutions LLC</span>
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6 text-balance">
-            Research-Driven Solutions for{" "}
-            <span className="gradient-text">Educational Excellence</span>
+            Advancing Organizations Through <span className="gradient-text">Insights and Evidence</span>
           </h1>
           
           <p className="text-lg sm:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto text-balance">
-            Full-service consulting firm specializing in customized research, evaluation, and strategic advising for nonprofits, schools, and academic institutions.
+            We help schools, nonprofits, and other mission-driven organizations use evidence to drive meaningful improvement. Through rigorous research, strategic advising, and effective storytelling, we turn data into insight, and insight into impact.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
