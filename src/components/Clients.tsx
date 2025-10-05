@@ -43,7 +43,7 @@ export const Clients = () => {
                     <img 
                       src={client.logo} 
                       alt={`${client.name} logo`}
-                      className="max-h-[60px] max-w-[180px] object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 opacity-70 group-hover:opacity-100"
+                      className="max-h-[60px] max-w-[180px] object-contain transition-all duration-300"
                     />
                   </div>
                 </div>
