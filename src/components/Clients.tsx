@@ -1,18 +1,21 @@
+import rebelbaseLogo from "@/assets/clients/rebelbase.png";
+import nyuLogo from "@/assets/clients/nyu.png";
+import eqpdLogo from "@/assets/clients/eqpd.png";
+import buildonLogo from "@/assets/clients/buildon.png";
+import citiLogo from "@/assets/clients/citi.png";
+import jaWorldwideLogo from "@/assets/clients/ja-worldwide.png";
+import digitalPromiseLogo from "@/assets/clients/digital-promise.png";
+import nycSchoolsLogo from "@/assets/clients/nyc-schools.png";
+
 const clients = [
-  "EQPD",
-  "buildOn",
-  "Acceleration Group",
-  "Anti-Defamation League",
-  "Bellwether",
-  "Capgemini",
-  "Digital Promise",
-  "FreshDirect",
-  "Citi Program",
-  "Junior Achievement",
-  "NFTE",
-  "NYC Department of Education",
-  "New York University",
-  "RebelBase",
+  { name: "EQPD", logo: eqpdLogo },
+  { name: "buildOn", logo: buildonLogo },
+  { name: "Digital Promise", logo: digitalPromiseLogo },
+  { name: "Citi Program", logo: citiLogo },
+  { name: "JA Worldwide", logo: jaWorldwideLogo },
+  { name: "NYC Department of Education", logo: nycSchoolsLogo },
+  { name: "New York University", logo: nyuLogo },
+  { name: "RebelBase", logo: rebelbaseLogo },
 ];
 
 export const Clients = () => {
@@ -36,10 +39,12 @@ export const Clients = () => {
                   key={index}
                   className="flex-shrink-0 mx-8 flex items-center justify-center"
                 >
-                  <div className="px-8 py-6 bg-card border border-border rounded-lg hover:border-primary/50 hover:shadow-md transition-all duration-300 group min-w-[200px]">
-                    <span className="text-base font-semibold text-muted-foreground group-hover:text-foreground transition-colors duration-300 whitespace-nowrap">
-                      {client}
-                    </span>
+                  <div className="px-8 py-6 bg-card border border-border rounded-lg hover:border-primary/50 hover:shadow-md transition-all duration-300 group min-w-[200px] h-[100px] flex items-center justify-center">
+                    <img 
+                      src={client.logo} 
+                      alt={`${client.name} logo`}
+                      className="max-h-[60px] max-w-[180px] object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300 opacity-70 group-hover:opacity-100"
+                    />
                   </div>
                 </div>
               ))}
