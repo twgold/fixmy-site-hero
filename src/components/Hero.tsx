@@ -16,7 +16,8 @@ export const Hero = () => {
           </div>
           
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6 text-balance">
-            Advancing Organizations Through <span className="gradient-text">Insights and Evidence</span>
+            Building Impact Through<br />
+            <span className="gradient-text">Insights and Evidence</span>
           </h1>
           
           <p className="text-lg sm:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto text-balance">
